@@ -42,10 +42,11 @@
 
 Before running the script, ensure that the following prerequisites are met:
 
-- **PowerShell Version**: PowerShell 5.1 or higher is recommended. You can check your PowerShell version with:
+- **PowerShell Version**: PowerShell **3.0** or higher is required to run this script. However, **PowerShell 5.1** is **strongly recommended** for optimal performance, enhanced security features, and improved cmdlet support. You can check your PowerShell version with:
 
-  ```powershell
-  $PSVersionTable.PSVersion
+```powershell
+$PSVersionTable.PSVersion
+```
 
 - **Administrative Privileges**: The script must be executed with administrative rights to access all required system and licensing information.
 
@@ -53,13 +54,16 @@ Before running the script, ensure that the following prerequisites are met:
 
 ```powershell
 Get-ExecutionPolicy
+```
 
 If necessary, set the execution policy to `RemoteSigned` or `Unrestricted` for the current user:
 
 ```powershell
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+```
 
 **Note**: Always adhere to your organization's security guidelines when modifying execution policies.
+
 
 ## Installation
 
