@@ -38,16 +38,6 @@
 
 - **Built-in Help System**: Provides detailed usage instructions and parameter descriptions to guide users.
 
-
-## Prerequisites
-
-Before running the script, ensure that the following prerequisites are met:
-
-- **PowerShell Version**: PowerShell 5.1 or higher is recommended. You can check your PowerShell version with:
-
-  ```powershell
-  $PSVersionTable.PSVersion
-
 ## Prerequisites
 
 Before running the script, ensure that the following prerequisites are met:
