@@ -72,7 +72,7 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
     - Clone the repository or download the `CollectEndpointData.ps1` script directly.
 
       ```bash
-      git clone https://github.com/your-repo/CollectEndpointData.git
+      git clone https://github.com/JiriSlof/CollectEndpointData.git
       ```
 
     - Alternatively, download the script from your preferred source and place it in a desired directory, e.g., `C:\Scripts`.
