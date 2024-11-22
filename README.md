@@ -14,7 +14,6 @@
   - [Examples](#examples)
 - [Output](#output)
 - [Troubleshooting](#troubleshooting)
-- [Downloading the Script from GitHub](#downloading-the-script-from-github)
 - [License](#license)
 - [Acknowledgements](#acknowledgements)
 
@@ -175,47 +174,6 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
       - Ensure all prerequisites are met.
       - Verify that the report path is accessible and has sufficient permissions.
       - Check for network issues if running in a domain environment.
-
-
-## Downloading the Script from GitHub
-
-To download the **CollectEndpointData.ps1** script from GitHub, follow the steps below:
-
-1. **Visit the Repository**:
-
-Open your web browser and navigate to the repository:
-
-[https://github.com/your-repo/CollectEndpointData](https://github.com/your-repo/CollectEndpointData)
-
-2. **Clone the Repository**:
-
-Use Git to clone the repository to your local machine:
-
-```bash
-git clone https://github.com/your-repo/CollectEndpointData.git
-```
-
-3. **Download as ZIP**:
-
-If you prefer not to use Git, you can download the script as a ZIP file:
-
-- Click the **"Code"** button on the repository page.
-- Select **"Download ZIP"**.
-- Extract the contents to your desired directory, e.g., `C:\Scripts`.
-
-4. **Verify the Script**:
-
-After downloading, ensure that the script has not been tampered with by verifying its integrity.
-
-5. **Running the Script**:
-
-Navigate to the directory containing the script and execute it as per the [Usage](#usage) section.
-
-**Note**: Ensure that you have the necessary permissions and that your system meets all [prerequisites](#prerequisites) before running the script.
-
- 7. **Create a Pull Request**:
-
-    Navigate to your fork on GitHub and click **"Compare & pull request"**.
 
 ## License
 
