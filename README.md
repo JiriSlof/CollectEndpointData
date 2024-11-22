@@ -14,9 +14,10 @@
   - [Examples](#examples)
 - [Output](#output)
 - [Troubleshooting](#troubleshooting)
-- [Contributing](#contributing)
+- [Downloading the Script from GitHub](#downloading-the-script-from-github)
 - [License](#license)
 - [Acknowledgements](#acknowledgements)
+
 
 ## Overview
 
@@ -176,43 +177,41 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
       - Check for network issues if running in a domain environment.
 
 
-## Contributing
+## Downloading the Script from GitHub
 
- Contributions are welcome! If you have suggestions for improvements or encounter issues, please feel free to submit a [pull request](https://github.com/your-repo/CollectEndpointData/pulls) or open an [issue](https://github.com/your-repo/CollectEndpointData/issues).
+To download the **CollectEndpointData.ps1** script from GitHub, follow the steps below:
 
-### Steps to Contribute
+1. **Visit the Repository**:
 
- 1. **Fork the Repository**:
+Open your web browser and navigate to the repository:
 
-    Click the **"Fork"** button at the top-right corner of the repository page.
+[https://github.com/your-repo/CollectEndpointData](https://github.com/your-repo/CollectEndpointData)
 
- 2. **Clone Your Fork**:
+2. **Clone the Repository**:
 
-    ```bash
-    git clone https://github.com/your-username/CollectEndpointData.git
-    ```
+Use Git to clone the repository to your local machine:
 
- 3. **Create a New Branch**:
+```bash
+git clone https://github.com/your-repo/CollectEndpointData.git
+```
 
-    ```bash
-    git checkout -b feature/YourFeatureName
-    ```
+3. **Download as ZIP**:
 
- 4. **Make Your Changes**:
+If you prefer not to use Git, you can download the script as a ZIP file:
 
-    Edit the script or README as needed.
+- Click the **"Code"** button on the repository page.
+- Select **"Download ZIP"**.
+- Extract the contents to your desired directory, e.g., `C:\Scripts`.
 
- 5. **Commit Your Changes**:
+4. **Verify the Script**:
 
-    ```bash
-    git commit -m "Add feature or fix issue"
-    ```
+After downloading, ensure that the script has not been tampered with by verifying its integrity.
 
- 6. **Push to Your Fork**:
+5. **Running the Script**:
 
-    ```bash
-    git push origin feature/YourFeatureName
-    ```
+Navigate to the directory containing the script and execute it as per the [Usage](#usage) section.
+
+**Note**: Ensure that you have the necessary permissions and that your system meets all [prerequisites](#prerequisites) before running the script.
 
  7. **Create a Pull Request**:
 
