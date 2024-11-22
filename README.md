@@ -55,10 +55,12 @@ Before running the script, ensure that the following prerequisites are met:
 Get-ExecutionPolicy
 
 If necessary, set the execution policy to `RemoteSigned` or `Unrestricted` for the current user:
+
 ```powershell
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 
 **Note**: Always adhere to your organization's security guidelines when modifying execution policies.
+
 ## Installation
 
  1. **Download the Script**:
